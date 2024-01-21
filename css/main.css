@@ -1,1 +1,279 @@
 
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../img/header/bg.jpg) no-repeat;
+	background-size: cover;
+	font-family: 'Scada', sans-serif;
+	color: #fff;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.container{
+	width: 1240px;
+	margin: 0 auto;
+}
+
+.header-content{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+
+.header-content-logo a{
+	font-weight: 900;
+	font-size: 40px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	display: flex;
+	user-select: none;
+}
+
+
+.header-content-logo-img{
+	width: 92px;
+	height: 92px;
+	margin-right: 20px;
+}
+
+.header-content-logo-img img{
+	width: 100%;
+	height: 100%;
+}
+
+.header-content-logo-subtitle{
+	font-size: 20px;
+	margin-left: 17px;
+}
+
+.header-content-nav-menu{
+	display: flex;
+	gap: 50px;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+.header-content-nav-menu li a{
+	position: relative;
+}
+
+.header-content-nav-menu li a:hover{
+	top: -5px;
+}
+
+.personal-area-btn{
+	width: 85px;
+	height: 85px;
+	position: relative;
+	top: -31px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	background: transparent;
+}
+
+.personal-area-btn i{
+	font-size: 45px;
+	color: #fff;
+	transition: .3s;
+}
+
+.personal-area-btn i:hover{
+	transform: scale(1.2);
+}
+
+/**/
+
+.start-study{
+	padding-bottom: 60px;
+}
+
+.start-study-content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 130px;
+}
+
+.start-study-content-left{
+	margin-left: 100px;
+}
+
+.start-study-content-left-title{
+	font-size: 75px;
+	font-weight: 900;
+	text-transform: uppercase;
+	line-height: 60px;
+	position: relative;
+}
+
+.start-study-content-left-title:before{
+	content: '';
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	background: url(../img/header/nrg-logo.png) no-repeat transparent;
+	background-size: cover;
+	opacity: 0.1;
+	top: -98px;
+	left: -30px;
+}
+
+.start-study-content-left-subtitle{
+	font-size: 55px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin: 0 0 10px 60px;
+}
+
+.start-study-content-left-text{
+	width: 100%;
+	padding: 15px 8px;
+	background: #0000006b;
+	border-left: 5px solid #fff;
+	letter-spacing: 2px;
+	line-height: 23px;
+	margin-bottom: 50px;
+}
+
+.start-study-content-right{
+	display: flex;
+	align-items: center;
+	user-select: none;
+}
+
+.start-study-content-right-img{
+	width: 300px;
+	height: 300px;
+}
+
+.start-study-content-right-img img{
+	width: 100%;
+	height: 100%;
+}
+
+.start-study-content-right-contacts{
+	margin-left: 20px;
+}
+
+.start-study-content-right-contacts-btn{
+	background: #000;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	margin: 7px;
+	display: block;
+	text-align: center;
+	position: relative;
+}
+
+.start-study-content-right-contacts-btn i{
+	font-size: 25px;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.start-study-content-right-contacts-btn:hover{
+	right: -10px;
+}
+
+.start-study-content-left-faq{
+	display: flex;
+}
+
+.start-study-content-left-faq{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 900;
+	text-align: center;
+	margin-top: 5px;
+	gap: 40px;
+}
+
+.start-study-content-left-faq-box{
+	width: 140px;
+	height: 140px;
+	border: 5px solid #fff;
+	border-radius: 30%;
+	background: #00000057;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	position: relative;
+}
+
+.start-study-content-left-faq-box:hover{
+	top: -10px;
+}
+
+.start-study-content-left-faq-box img{
+	width: 80%;
+	height: 80%;
+}
+
+/*Login section*/
+
+.enter{
+	padding-bottom: 50px;
+}
+
+.enter-content-wrap{
+	display: flex;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.enter-content-title{
+	font-size: 80px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+.enter-content-form input{
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+	width: 500px;
+	border: 5px solid #fff;
+	border-radius: 50px;
+	background: #00000063;
+	padding: 17px 10px;
+	margin-bottom: 40px;
+}
+
+ .enter-content-form input::placeholder{
+ 	color: #ffffffc9;
+ }
+
+ .enter-content-form-btn{
+ 	margin: 0 auto;
+ 	font-size: 25px;
+ 	font-weight: 900;
+ 	color: #fff;
+ 	border: 5px solid #fff;
+ 	border-radius: 30px;
+ 	background: #00000099;
+ 	text-transform: uppercase;
+ 	padding: 8px 15px;
+ 	cursor: pointer;
+ 	transition: 1s;
+ }
+
+ .enter-content-form-btn:hover{
+	background: #262f7f;
+ }
+
+
+
+
